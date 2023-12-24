@@ -1,35 +1,32 @@
-.container{
-    text-align: center;
-    
-}
-
-ul, ol {
-    list-style: none;
+.container {
+  text-align: center;
 }
 
 h1 {
-    font-size: 30px;
-    color: brown;
-    background-color: lightgray;
-    padding: 10px;
-
+  font-size: 30px;
+  color: rgba(165, 42, 42, 0.137);
+  background-color: lightgray;
+  margin-top: 4px;
+  padding: 10px;
 }
 h2 {
-    color: brown;
+  color: brown;
 }
 
 h3 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 img {
-max-width: 200px;
+  max-width: 200px;
 }
-
 
 #recipe {
-    border-bottom: 3px black solid;
-    margin-bottom: 10px;
-    padding: 4px;
+  border-bottom: 3px black solid;
+  margin-bottom: 10px;
+  padding: 4px;
 }
 
+footer {
+  text-align: center;
+}
