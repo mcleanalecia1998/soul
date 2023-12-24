@@ -1,0 +1,35 @@
+.container{
+    text-align: center;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+h1 {
+    font-size: 30px;
+    color: brown;
+    background-color: lightgray;
+    padding: 10px;
+
+}
+h2 {
+    color: brown;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+img {
+max-width: 300px;
+}
+
+
+
+#recipe {
+    border-bottom: 3px black solid;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+
