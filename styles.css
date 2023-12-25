@@ -18,14 +18,21 @@ p {
 
 h2 {
   color: #844204;
+  text-align: center;
   text-decoration: underline;
 }
 
 h3 {
   color: #3f1d0b;
   font-size: 25px;
+  text-align: center;
   text-decoration: underline;
-  margin-top: 3px;
+  margin-top: 4px;
+}
+
+h4 {
+  color: #3f1d0b;
+  text-align: center;
 }
 
 ul,
@@ -40,6 +47,7 @@ img {
 footer {
   text-align: center;
   opacity: 0.4;
+  margin-top: 4px;
 }
 
 /* Navbar */
@@ -54,4 +62,9 @@ a.cursor {
 
 .active {
   color: green;
+}
+
+.navbar {
+  text-align: center;
+  margin: 4px;
 }
