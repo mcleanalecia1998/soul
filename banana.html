@@ -4,34 +4,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Banana Pudding</title>
 </head>
 
 <body>
-    <h2>Banana Pudding</h2>
-    <img src="src/bp.jpg" class="img-fluid" />
-    <h3>Ingredients</h3>
-    <ul>
-        <li>1 box of vanilla wafers</li>
-        <li>1 stick of butter</li>
-        <li>6 sliced bannas thin</li>
-        <li>11/2 tablespoon of lemon juice</li>
-        <li>1 can of condensed milk</li>
-        <li>1 large container of whipped cream</li>
-    </ul>
-    <h3>Instructions</h3>
-    <li>Crush up vanilla wafers in a bag, set aside a little for decoration</li>
-    <li>Melt stick of butter them combine with wafers</li>
-    <li>Mix wafers and butter in bowl and place at the bottom of large
-        container to make a crust and set aside</li>
-    <li>Mix together sliced bannas and lemon juice in a bowl and spread on
-        top of wafer crust</li>
-    <li>Pour entire can of condensed milk on top of bananas</li>
-    <li>Cover with whip cream and sprinkle extra crushed wafers on top</li>
-    <li>Let chill 4-5 hours or overnight for best results</li>
-    </ol>
-    Enjoy!
+
+    <!--Nava=bar-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">The Soul Collection</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+
+                            <a class="nav-link" href="mac.html">Baked Macaroni &Cheese</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="nav-link" href="collard.html"> Collard Greens</a>
+                            <div class="dropdown-divider"></div>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Others
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="yam.html">Candied Yams</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="turkey.html">Crockpot Turkey Wings</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="banana.html">Banana Pudding</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+
+
+                <!-- Recipe-->
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h2>Banana Pudding</h2>
+                        <img src="src/bp.jpg" class="img-fluid" />
+
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+
+                        <h3>Ingredients</h3>
+                        <ul>
+                            <li>1 box of vanilla wafers</li>
+                            <li>1 stick of butter</li>
+                            <li>6 sliced bannas thin</li>
+                            <li>11/2 tablespoon of lemon juice</li>
+                            <li>1 can of condensed milk</li>
+                            <li>1 large container of whipped cream</li>
+                        </ul>
+                        <h3>Instructions</h3>
+                        <ol>
+                            <li>Crush up vanilla wafers in a bag, set aside a little for decoration</li>
+                            <li>Melt stick of butter them combine with wafers</li>
+                            <li>Mix wafers and butter in bowl and place at the bottom of large
+                                container to make a crust and set aside</li>
+                            <li>Mix together sliced bannas and lemon juice in a bowl and spread on
+                                top of wafer crust</li>
+                            <li>Pour entire can of condensed milk on top of bananas</li>
+                            <li>Cover with whip cream and sprinkle extra crushed wafers on top</li>
+                            <li>Let chill 4-5 hours or overnight for best results</li>
+                        </ol>
+                        Enjoy!
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <span>
@@ -41,6 +103,8 @@
             <a href="https://soulcollection.netlify.app/">Netlify</a>
         </span>
     </footer>
+
 </body>
+
 
 </html>

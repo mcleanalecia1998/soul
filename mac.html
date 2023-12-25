@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Baked Mac and Cheese</title>
 </head>
@@ -11,49 +13,104 @@
 <body>
 
     <!--Nava=bar-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-body-secondary">
+                    <a class="navbar-brand" href="#">Soul Collection</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+
+                            <a class="nav-link" href="mac.html">Baked Macaroni &Cheese</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="nav-link" href="collard.html"> Collard Greens</a>
+                            <div class="dropdown-divider"></div>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Others
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="yam.html">Candied Yams</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="turkey.html">Crockpot Turkey Wings</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="banana.html">Banana Pudding</a>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </nav>
 
 
+                <!-- Recipe-->
 
 
-    <!-- Recipe-->
-    <h2>Baked Macaroni & Cheese</h2>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h2>Baked Macaroni & Cheese</h2>
 
-    <img src="src/mac.jpg" class="img-fluid" alt="macaroni and cheese" />
-    <h3>Ingredients</h3>
-    <ul>
-        <li>32oz Box of Macaroni and Cheese</li>
-        <li>1 1/2 stick of butter</li>
-        <li>3 cups of Mild Cheddar Cheese</li>
-        <li>6 cups of Finely Shredded Cheddar Cheese</li>
-        <li>1 bag of Monterary Cheddar Cubed Cheese</li>
-        <li>2 cups of Milk</li>
-        <li>2 cups of Heavy Whipping Cream</li>
-        <li>1 1/2 cups of Half and Half</li>
-        <li>1 can sweetened condensed milk</li>
-        <li>4 eggs</li>
-        <li> Knorr chicken powder bouillon cube powder</li>
-        <li>Season Mix: peppercorn meldley grinder, iodized salt, garlic
-            powder, onion powder, ground black pepper, smoked paprika</li>
-    </ul>
-    <h3>Instructions</h3>
-    <ol>
-        <li>Preheat oven to 375</li>
-        <li>Grease large size pan with 1 stick of butter (not margarine y’al), and set aside</li>
-        <li>Put water into a large pot and sprinkle Knorr chicken boullion cube powder
-            into water</li>
-        <li>Partially cook elbow macaroni for 6-7 minuntes</li>
-        <li>While pasta is cooking make a wet mix of finely shredded cheddar cheese,
-            milk, heavy whipping cream, half and half, and eggs. Lightly season with
-            season mix listed above</li>
-        <li>Once pasta is partially cooked mix with half stick of butter. Lightly season
-            with season mix listed above.</li>
-        <li>Combine wet mix, seasoned pasta, and bag of cubed cheese into bowl and
-            mix throughly</li>
-        <li>Pour mix and spread Into large size pan</li>
-        <li>Sprinkle mild cheddar cheeder cheese on top of macaroni mix</li>
-        <li>Bake for 45 minutes to 1 hour until cheese creates a dark golden brown crust</li>
-    </ol>
-    Enjoy!
+                        <img src="src/mac.jpg" class="img-fluid" alt="macaroni and cheese" />
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <div>
+                            <h3>Ingredients</h3>
+                            <ul>
+                                <li>32oz Box of Macaroni and Cheese</li>
+                                <li>1 1/2 stick of butter</li>
+                                <li>3 cups of Mild Cheddar Cheese</li>
+                                <li>6 cups of Finely Shredded Cheddar Cheese</li>
+                                <li>1 bag of Monterary Cheddar Cubed Cheese</li>
+                                <li>2 cups of Milk</li>
+                                <li>2 cups of Heavy Whipping Cream</li>
+                                <li>1 1/2 cups of Half and Half</li>
+                                <li>1 can sweetened condensed milk</li>
+                                <li>4 eggs</li>
+                                <li> Knorr chicken powder bouillon cube powder</li>
+                                <li>Season Mix: peppercorn meldley grinder, iodized salt, garlic
+                                    powder, onion powder, ground black pepper, smoked paprika</li>
+                            </ul>
+
+                            <h3>Instructions</h3>
+                            <ol>
+                                <li>Preheat oven to 375</li>
+                                <li>Grease large size pan with 1 stick of butter (not margarine), and set aside
+                                </li>
+                                <li>Put water into a large pot and sprinkle Knorr chicken boullion cube powder
+                                    into water</li>
+                                <li>Partially cook elbow macaroni for 6-7 minuntes</li>
+                                <li>While pasta is cooking make a wet mix of finely shredded cheddar cheese,
+                                    milk, heavy whipping cream, half and half, and eggs. Lightly season with
+                                    season mix listed above</li>
+                                <li>Once pasta is partially cooked mix with half stick of butter. Lightly season
+                                    with season mix listed above.</li>
+                                <li>Combine wet mix, seasoned pasta, and bag of cubed cheese into bowl and
+                                    mix throughly</li>
+                                <li>Pour mix and spread Into large size pan</li>
+                                <li>Sprinkle mild cheddar cheeder cheese on top of macaroni mix</li>
+                                <li>Bake for 45 minutes to 1 hour until cheese creates a dark golden brown crust</li>
+                            </ol>
+                            Enjoy
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <footer>
@@ -64,6 +121,8 @@
             <a href="https://soulcollection.netlify.app/">Netlify</a>
         </span>
     </footer>
+
+
 </body>
 
 </html>
