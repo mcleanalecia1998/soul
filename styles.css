@@ -1,4 +1,4 @@
-.container {
+container {
   text-align: center;
 }
 
@@ -7,7 +7,7 @@ h1 {
   font-size: 40px;
   background-color: #d3a871;
   border: 4px solid #5b4333;
-  margin-top: 4px;
+  margin: 5px;
   padding: 10px;
 }
 
