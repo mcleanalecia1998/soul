@@ -41,6 +41,12 @@ ol {
   list-style: none;
 }
 
+.items:hover {
+  color: #ffffff;
+  background-color: #ad886a;
+  border: none;
+}
+
 img {
   max-width: 200px;
   display: block;
@@ -51,6 +57,7 @@ footer {
   text-align: center;
   opacity: 0.4;
   margin-top: 4px;
+  margin-bottom: 8px;
 }
 
 /* Navbar */
@@ -62,12 +69,10 @@ footer {
   font-size: 30px;
 }
 
-a.cursor {
+a:hover {
+  color: #ad886a;
+  text-decoration: underline;
   cursor: pointer;
-}
-
-.active {
-  color: green;
 }
 
 .navbar {
