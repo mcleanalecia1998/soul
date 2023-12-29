@@ -57,6 +57,9 @@ footer {
 
 .navbar-brand {
   color: #5b4333;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 30px;
 }
 
 a.cursor {
