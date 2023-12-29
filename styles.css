@@ -21,6 +21,7 @@ h2 {
   color: #844204;
   text-align: center;
   text-decoration: underline;
+  padding: 10px;
 }
 
 h3 {
@@ -29,6 +30,7 @@ h3 {
   text-align: center;
   text-decoration: underline;
   margin-top: 4px;
+  padding: 4px;
 }
 
 h4 {
@@ -39,6 +41,12 @@ h4 {
 ul,
 ol {
   list-style: none;
+}
+
+.items {
+  display: block;
+  margin: 0px;
+  padding: 10px;
 }
 
 .items:hover {
