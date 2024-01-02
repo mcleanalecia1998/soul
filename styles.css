@@ -17,6 +17,12 @@ p {
   background-color: #d3a871;
 }
 
+.description {
+  color: #5b4333;
+  text-align: center;
+  margin-top: 10px;
+}
+
 h2 {
   color: #844204;
   text-align: center;
@@ -64,7 +70,7 @@ img {
 footer {
   text-align: center;
   opacity: 0.4;
-  margin-top: 4px;
+  margin-top: 20px;
   margin-bottom: 8px;
 }
 
@@ -86,7 +92,4 @@ footer {
 .navbar {
   text-align: center;
   margin: 4px;
-}
-
- {
 }
